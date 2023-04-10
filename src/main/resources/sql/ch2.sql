@@ -1,0 +1,6 @@
+create table MEMBER (
+    ID VARCHAR(255) NOT NULL,
+    NAME VARCHAR(255),
+    AGE INTEGER,
+    PRIMARY KEY (ID)
+);
