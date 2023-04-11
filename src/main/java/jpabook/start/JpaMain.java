@@ -37,6 +37,10 @@ public class JpaMain {
         member.setUsername("지한");
         member.setAge(2);
 
+        Board board = new Board();
+        em.persist(board);
+        System.out.println("board.id = " + board.getId());
+
         // 등록
         em.persist(member);
 
