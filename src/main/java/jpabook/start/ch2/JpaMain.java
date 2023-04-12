@@ -1,4 +1,4 @@
-package jpabook.start;
+package jpabook.start.ch2;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -25,7 +25,7 @@ public class JpaMain {
         } finally {
             em.close();     // 엔티티 매니저 종료
         }
-        emf.close();;       // 엔티티 매니저 팩토리 종료
+        emf.close();       // 엔티티 매니저 팩토리 종료
     }
 
     // 비즈니스 로직
