@@ -1,4 +1,4 @@
-package practice.ch4;
+package practice;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

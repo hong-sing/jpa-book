@@ -1,4 +1,4 @@
-package practice.ch4.entity;
+package practice.entity;
 
 import javax.persistence.*;
 
