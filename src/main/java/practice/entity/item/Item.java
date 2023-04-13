@@ -1,11 +1,15 @@
-package practice.entity;
+package practice.entity.item;
+
+import practice.entity.Category;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Item {
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)   //상속관계 매핑. 단일 테이블 전략
+@DiscriminatorColumn(name = "DTYPE")    //단일 테이블 전략은 구분 컬럼을 필수로 사용해야 함
+public abstract class Item {
 
     @Id @GeneratedValue
     @Column(name = "ITEM_ID")
@@ -19,8 +23,6 @@ public class Item {
     private List<Category> categories = new ArrayList<>();
 
     //Getter, Setter
-
-
     public Long getId() {
         return id;
     }

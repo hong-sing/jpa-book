@@ -1,5 +1,7 @@
 package practice.entity;
 
+import practice.entity.item.Item;
+
 import javax.persistence.*;
 
 @Entity
