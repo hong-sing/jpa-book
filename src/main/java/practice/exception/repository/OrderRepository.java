@@ -1,4 +1,4 @@
-package practice.repository;
+package practice.exception.repository;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;

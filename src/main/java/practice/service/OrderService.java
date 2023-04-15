@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 import practice.domain.*;
 import practice.domain.item.Item;
 import practice.exception.NotEnoughStockException;
-import practice.repository.MemberRepository;
-import practice.repository.OrderRepository;
+import practice.exception.repository.MemberRepository;
+import practice.exception.repository.OrderRepository;
 
 import java.util.List;
 

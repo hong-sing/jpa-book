@@ -11,7 +11,7 @@ import practice.domain.*;
 import practice.domain.item.Book;
 import practice.domain.item.Item;
 import practice.exception.NotEnoughStockException;
-import practice.repository.OrderRepository;
+import practice.exception.repository.OrderRepository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

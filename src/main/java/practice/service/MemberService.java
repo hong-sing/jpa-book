@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import practice.domain.Member;
-import practice.repository.MemberRepository;
+import practice.exception.repository.MemberRepository;
 
 import java.util.List;
 
